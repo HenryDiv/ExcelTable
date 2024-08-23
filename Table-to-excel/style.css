@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 5vh;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap:1vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4vh;
+    flex-wrap: wrap;
+}
+.wrap-inputs{
+    display: flex;    
+    flex-direction: column;
+}
+label{
+    padding-left: 20px;
+    margin-bottom: 1vh;
+}
+
+input{
+    border-radius: 999px;
+    padding-left: 20px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: #d9d9d9;
+    border: 20px;
+}
+.wrap-btn{
+    width: 100%;
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.btn{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 999px;
+    border: none;
+    transition: all 200ms linear;
+    border: 2px solid transparent;
+}
+.btn:hover{
+    cursor: pointer;
+    transition: all 200ms linear;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+#tabela{
+    background-color: #d9d9d9;
+    width: 80%;
+    text-align: center;
+
+}
+.wrap-tb{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4vh;
+}
+thead{
+    background-color: #090909;
+    color: white;
+}
+td{
+    border: 1px solid #090909;
+}
+@media (width<=300px) {
+    input{
+        width: 200px;
+        height: 45px;
+    }
+    
+}
